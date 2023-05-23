@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Youtube video player page</title>
 </head>
 <body>
-    
+    <nav class="flex-div">
+        <div class = "navbar-left flex-div">
+            <img class="menu" src="img/menu.png" alt="youtube menu button">
+            <img class="logo" src="img/youtube.png" alt="youtube logo">
+        </div>
+        <div class = "navbar-middle flex-div">
+            <form class="search-box flex-div" action="" method="" target="_blank">
+                <input  type="text" name = "search_query" placeholder="Search" required>
+                <button type="submit">
+                    <img class="search-icon" src="img/search.png" alt="youtube search ">
+                </button>
+            </form>
+            <img class="mic-icon" src="img/mic.png" alt="youtube voice-search">
+        </div>
+        <div class = "navbar-right flex-div">
+            <img src="img/create.png" alt="youtube create">
+            <img src="img/notification.png" alt="youtube notification">
+            <img class="profile-icon" src="img/profile-icon.png" alt="youtube profile">
+        </div>
+    </nav>
 </body>
 </html>
