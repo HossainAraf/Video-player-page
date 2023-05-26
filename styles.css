@@ -3,7 +3,7 @@
     padding: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #241E20;
-    font: white;
+    color: white;
 } 
 img{
     cursor: pointer;
@@ -82,6 +82,7 @@ top: 0;
 .suggested-video .btn1{
 border-radius: 5%;
 width: 80px;
+margin-bottom: 10px;;
 }
 /*---- Container--- */
 .container{
@@ -94,8 +95,49 @@ width: 80px;
     margin-right: 2%;
 }
 .video-container video{
-    width: 100%;
+    width: 95%;
 }
+.video-container h3{
+    font-weight:bolder;
+}
+.play-video-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.play-video-info .channel-logo{
+  width: 50px;
+}
+.play-video-info .channel-logo img{
+  width: 50px;
+  border-radius: 50%;
+}
+.video-info-right{
+    display: inline;
+}
+.video-info-right img{
+width: 30px;
+}
+/*---Side bar----------*/
 .suggested-video{
     flex-basis: 30%;
+    padding-right: 2%;
+}
+.side-video-list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.side-video-list img{
+    width: 100%;
+}
+.side-video-list .video-thumbnail{
+    flex-basis: 49%;
+}
+.side-video-list .video-info{
+    flex-basis: 49%;
+}
+.side-video-list .video-info a h4{
+    color: red
 }
