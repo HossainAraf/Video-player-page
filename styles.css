@@ -119,6 +119,15 @@ margin-bottom: 10px;;
 .video-info-right img{
 width: 30px;
 }
+.comment-section{
+    
+}
+.comment-section h3{
+
+}
+.comment-section img{
+    width: 30px;
+}
 /*---Side bar----------*/
 .suggested-video{
     flex-basis: 30%;
